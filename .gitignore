@@ -1,4 +1,35 @@
+*.log
+
+# Application
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep
+dist/*
+
+# Node Package Manager
+node_modules
+
+# Vagrant
+bin
+.vagrant
+
+# MAC
 .DS_Store
+*.DS_Store
+
+# Composer
+
+composer.lock
 
 application/cache/*
 !application/cache/index.html
